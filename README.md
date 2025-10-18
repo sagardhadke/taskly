@@ -1,16 +1,37 @@
-# taskly
+# 📝 Taskly – Your tasks, beautifully organized
 
-A new Flutter project.
+Taskly is a clean and minimal Flutter note-taking app where users can add, update, and delete tasks seamlessly. Built using Provider for state management with a modern UI.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- ✍️ Create & save notes
+- 📝 Edit existing notes
+- 🗑️ Delete notes with a single tap
+- 💾 Local storage (SQLite / local DB via provider)
+- 🌗 Clean, responsive UI
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ✅ **Flutter** – Frontend framework
+- ✅ **Provider** – State management
+- ✅ **SQLite / Local Database** – Offline-first support
+- ✅ **Dart** – Backend logic
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Apps Screenshots
+
+<table>
+  <tr>
+     <td>Splash Screen</td>
+     <td>Home Screen</td>
+     <td>Empty State Screen</td>
+     <td>Add Note Screen</td>
+     <td>Update Note Drawer</td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/splash.png" width = 300 ></td>
+    <td><img src="screenshots/home_screen.png" width = 300 ></td>
+    <td><img src="screenshots/empty_state.png" width = 300 ></td>
+    <td><img src="screenshots/add_note.png" width = 300 ></td>
+    <td><img src="screenshots/update_note.png" width = 300 ></td>
+  </tr>
+ </table>
