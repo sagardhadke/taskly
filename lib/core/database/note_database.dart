@@ -27,8 +27,8 @@ class DBHelper {
     return await openDatabase(
       dbPath,
       onCreate: (db, version) {
-        db.execute(
-          "create table ${TableKeys.noteTable} { ${TableKeys.noteId} integer primary key autoincrement, ${TableKeys.noteTitle} text, ${TableKeys.noteDescription} text, ${TableKeys.noteCreatedAt} text }",
+       db.execute(
+          "create table ${TableKeys.noteTable} ( ${TableKeys.noteId} integer primary key autoincrement, ${TableKeys.noteTitle} text, ${TableKeys.noteDescription} text, ${TableKeys.noteCreatedAt} text )",
         );
       },
       version: 1,
